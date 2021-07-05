@@ -1,0 +1,83 @@
+/*
+* Libreria de Estilos
+* Hoja de estilos
+* Fuentes por defecto MONTSERRAT Y ROBOTO
+*/
+/* Importar fuentes aquí*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif; /*Sustituir la familia de la fuente*/
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*Familias de fuentes diferentes colocarlas con las iniciales ff más un guion medio y el numero de fuente siendo el 1 la fuente primaria*/
+.ff-1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ff-2{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Grosores de tipografia */
+.fw-100{
+    font-weight: 100!important;
+}
+
+.fw-200{
+    font-weight: 200!important;
+}
+
+.fw-300{
+    font-weight: 300!important;
+}
+
+.fw-400{
+    font-weight: 400!important;
+}
+
+.fw-500{
+    font-weight: 500!important;
+}
+
+.fw-600{
+    font-weight: 600!important;
+}
+
+.fw-700{
+    font-weight: 700!important;
+}
+
+.fw-800{
+    font-weight: 800!important;
+}
+
+.fw-900{
+    font-weight: 900!important;
+}
+
+/* Tamaños de size de las fuentes para generar fuentes mas grandes */
+
+.fz-x0{
+    font-size: 1.4rem;
+}
+
+.fz-x1{
+    font-size: 2.8rem;
+}
+
+.fz-x2{
+    font-size: 4.6rem;
+}
+
+/*********************************************************************************************
+COMENTARIO EN BLOQUE - SE USA PARA SEPARAR LA SECCIÓN - EJEMPLO HEADER
+**********************************************************************************************/
